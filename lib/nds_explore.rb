@@ -13,8 +13,8 @@ end
 def print_first_directors_movie_titles
 i = 0
 movie = directors_database[0][:movies]
-while i < movies.length
-puts movies[i][:title]
+while i < movie.length
+puts movie[i][:title]
   i += 1
    end
 
